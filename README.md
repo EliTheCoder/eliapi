@@ -1,2 +1,2 @@
 # eliapi
-a neat API that helps with logging and random numbers
+An API that helps with logging and number generating
