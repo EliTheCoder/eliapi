@@ -1,6 +1,11 @@
 const colors = require('colors');
 
 exports.logMessage = (type, message) => {
+  exports.log(type, message);
+  exports.log(1, "eliapi.logmessage is deprecated. please use eliapi.log")
+}
+
+exports.log = (type, message) => {
   let typeString;
   let datestamp = "";
   let msg = "";
