@@ -29,7 +29,7 @@ exports.log = (type, message) => {
       console.log(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`.blue);
       break;
     case 4:
-      typeString = "INFO";
+      typeString = "INFO-RAW";
       console.log(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg}`);
       break;
     default:
